@@ -4,6 +4,8 @@ Multi-root workspaces for Neovim, in the spirit of VS Code's `.code-workspace` f
 
 Built for [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim), with optional integrations for [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua), [neogit](https://github.com/NeogitOrg/neogit), [git-worktree.nvim](https://github.com/ThePrimeagen/git-worktree.nvim), [harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) (v2), the built-in LSP client and any statusline.
 
+If you want to dig deeper into this plugin, take a trip through the blog post --> [🧭 Neovim Thinks in One Directory](https://sunny-snskarora.hashnode.dev/neovim-thinks-in-one-directory).
+
 ## Features
 
 - **Named workspaces with sessions.** Create, open, switch and delete workspaces from Telescope pickers. Each one keeps its windows, buffers and layout through `:mksession`, saved automatically on every change and on exit.
